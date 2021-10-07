@@ -1,0 +1,97 @@
+[28-Jul-2021 19:03:18 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[03-Aug-2021 02:15:15 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[03-Aug-2021 22:12:29 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[03-Aug-2021 22:12:30 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[04-Aug-2021 07:42:40 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[05-Aug-2021 08:59:03 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[05-Aug-2021 08:59:12 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[05-Aug-2021 09:09:51 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[05-Aug-2021 14:11:37 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[05-Aug-2021 14:32:16 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[08-Aug-2021 02:03:04 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.29. in /home/smepsbra/wbr-app/vendor/composer/platform_check.php on line 24
+[13-Aug-2021 16:18:46 UTC] PHP Warning:  require(/home/smepso5/public_html/wb-form/wb-form/vendor/autoload.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/index.php on line 34
+[13-Aug-2021 16:18:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/smepso5/public_html/wb-form/wb-form/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/smepso5/public_html/wb-form/index.php on line 34
+[13-Aug-2021 16:20:53 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:22:29 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:22:43 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:23:02 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:23:05 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:23:19 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:23:25 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:23:47 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:24:00 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:24:03 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:24:43 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187
+[13-Aug-2021 16:25:14 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/smepsbra/wbr-app/storage/framework/views/2fc6fa1c8ef1c08c89dbc6178f9215947273486b.php): failed to open stream: No such file or directory in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:187
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/smepso5/p...', 187, Array)
+#1 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(187): file_put_contents('/home/smepsbra/...', '<?php $__env->s...', 0)
+#2 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(162): Illuminate\Filesystem\Filesystem->put('/home/smepsbra/...', '<?php $__env->s...')
+#3 /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\View\Compilers\BladeCompiler->compile('/home/smepso5/p...')
+#4 /home/smepso5 in /home/smepso5/public_html/wb-form/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 187

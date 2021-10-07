@@ -1,0 +1,12 @@
+@import 'multiform';
+@import 'multistep';
+@import 'loader';
+$fa-font-path: "../webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~sweetalert2/dist/sweetalert2.css";
+@import "~flatpickr/dist/flatpickr.css";
+@import "~@mdi/font/css/materialdesignicons.css";
+@import "custom";
